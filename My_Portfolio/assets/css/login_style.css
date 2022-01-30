@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.login_account{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,black,skyblue);
+    background-size: cover;
+    padding: 10px;
+}
+
+h1{
+    padding: 30px;
+    color: #fd4766;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 3px 10px black;
+}
+
+.container{
+    margin: auto;
+    text-align: justify;
+    color: white;
+    border-radius: 11px;
+    box-shadow: 2px 3px 10px black;
+    max-width: 500px;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    box-shadow: 2px 3px 10px black;
+    padding: 5px;
+}
+.details{
+    padding: 10px;
+    font-size: 15px;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fd4766;
+    box-shadow: 2px 3px 10px black;
+    padding: 5px;
+}
+
