@@ -49,3 +49,12 @@ button{
     padding: 5px;
 }
 
+#email_error{
+    color: red;
+    text-shadow:2px 3px 10px black;
+}
+
+#pass_error{
+    color: red;
+    text-shadow:2px 3px 10px black;
+}

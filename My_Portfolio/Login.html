@@ -14,12 +14,14 @@
         
           <div class="container">
             <div class="details">
-                <label for="uname"><b>Username</b></label><br>
+                <p><label for="uname"><b>Username</b></label><br>
                 <input type="text" placeholder="Enter Email" name="uname" id="email"required>
+                <span class="error" id="email_error"></span></p>
             </div>
             <div class="details"> 
-                <label for="psw"><b>Password</b></label><br>
+                <p><label for="psw"><b>Password</b></label><br>
                 <input type="password" placeholder="Enter Password" name="psw" id="pass" required>
+                <span class="error" id="pass_error"></span></p>
             </div>
             <div>
                 <button type="submit" onclick="login()">Login</button>
